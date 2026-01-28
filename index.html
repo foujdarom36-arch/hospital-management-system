@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Hospital Management Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+<div class="app">
+
+  <!-- Sidebar -->
+  <aside class="sidebar">
+    <h2 class="logo">MediCare</h2>
+    <nav>
+      <a class="active">Dashboard</a>
+      <a>Appointments</a>
+      <a>Patients</a>
+      <a>Meals</a>
+      <a>Doctors</a>
+    </nav>
+  </aside>
+
+  <!-- Main -->
+  <main class="main">
+    
+    <!-- Top Bar -->
+    <header class="topbar">
+      <input type="text" placeholder="Search patients, doctors, appointments..." />
+      <div class="user">
+        <span>Admin User</span>
+        <small>Administrator</small>
+      </div>
+    </header>
+
+    <!-- Dashboard -->
+    <section class="dashboard">
+      <h1>Dashboard Overview</h1>
+      <p class="subtitle">Welcome to MediCare Hospital Management System</p>
+
+      <!-- Stats -->
+      <div class="stats">
+        <div class="card">
+          <h3>4</h3>
+          <p>Total Patients</p>
+        </div>
+        <div class="card">
+          <h3>4</h3>
+          <p>Active Doctors</p>
+        </div>
+        <div class="card">
+          <h3>0</h3>
+          <p>Appointments</p>
+        </div>
+        <div class="card">
+          <h3>4</h3>
+          <p>Occupied Beds</p>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+        
+        <!-- Recent Patients -->
+        <div class="box">
+          <h2>Recent Patients</h2>
+
+          <div class="row">
+            <span>John Smith</span>
+            <small>45 yrs • Male</small>
+          </div>
+          <div class="row">
+            <span>Mary Johnson</span>
+            <small>32 yrs • Female</small>
+          </div>
+          <div class="row">
+            <span>Robert Williams</span>
+            <small>28 yrs • Male</small>
+          </div>
+          <div class="row">
+            <span>Lisa Brown</span>
+            <small>52 yrs • Female</small>
+          </div>
+        </div>
+
+        <!-- Doctors -->
+        <div class="box">
+          <h2>Doctor Availability</h2>
+
+          <div class="row">
+            <span>Dr. Sarah Johnson</span>
+            <small class="green">Available</small>
+          </div>
+          <div class="row">
+            <span>Dr. Michael Chen</span>
+            <small class="green">Available</small>
+          </div>
+          <div class="row">
+            <span>Dr. Emily Williams</span>
+            <small class="green">Available</small>
+          </div>
+          <div class="row">
+            <span>Dr. James Anderson</span>
+            <small class="green">Available</small>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+</div>
+
+</body>
+</html>
